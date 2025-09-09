@@ -29,7 +29,7 @@ spec:
         - name: NAMESPACE
           value: production
         - name: TRACING_COLLECTOR_HOST
-          value: tempo.observability
+          value: k8s-monitoring-alloy-receiver.observability
         - name: TRACING_COLLECTOR_PORT
           value: "4317"
         #- name: ENDPOINT_TYPE
@@ -87,7 +87,7 @@ spec:
         - name: NAMESPACE
           value: production
         - name: TRACING_COLLECTOR_HOST
-          value: tempo.observability
+          value: k8s-monitoring-alloy-receiver.observability
         - name: TRACING_COLLECTOR_PORT
           value: "4317"
         #- name: ENDPOINT_TYPE
@@ -152,7 +152,7 @@ spec:
         - name: NAMESPACE
           value: production
         - name: TRACING_COLLECTOR_HOST
-          value: tempo.observability
+          value: k8s-monitoring-alloy-receiver.observability
         - name: TRACING_COLLECTOR_PORT
           value: "4317"
         - name: OTEL_EXPORTER_OTLP_TRACES_INSECURE
